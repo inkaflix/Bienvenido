@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Inkaflix - Redes Sociales</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: #0d0d0d;
+      color: white;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 40px 20px;
+    }
+
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+      border: 3px solid #fff;
+      object-fit: cover;
+    }
+
+    .name {
+      font-size: 22px;
+      font-weight: bold;
+      margin-top: 15px;
+    }
+
+    .description {
+      font-size: 14px;
+      color: #ccc;
+      text-align: center;
+      max-width: 300px;
+      margin-bottom: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 15px;
+      margin-bottom: 30px;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 20px;
+      text-decoration: none;
+    }
+
+    .links a {
+      display: block;
+      background: #1a1a1a;
+      color: white;
+      border: 1px solid #333;
+      border-radius: 30px;
+      text-align: center;
+      padding: 12px 0;
+      margin: 10px 0;
+      width: 280px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+
+    .links a:hover {
+      background: #333;
+    }
+
+    .footer {
+      margin-top: 40px;
+      font-size: 12px;
+      color: #666;
+    }
+  </style>
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <img src="https://raw.githubusercontent.com/inkaflix/API/main/logo.png" alt="Foto de perfil" class="profile-img">
+  <div class="name">Inkaflix Oficial</div>
+  <div class="description">Cine y Anime Gratis | ¡Descarga la app y únete a nuestras redes! | Animes | Series | Peliculas</div>
+
+  <div class="social-icons">
+    <a href="https://youtube.com/@inkaflixlat?si=4gERMAiSFG1Qx_RD" target="_blank"><i class="fab fa-youtube"></i></a>
+    <a href="https://www.instagram.com/inkaflix?igsh=MWE1czM5OTV6bWhoNw==" target="_blank"><i class="fab fa-instagram"></i></a>
+    <a href="https://www.tiktok.com/@inkaflix_offcial?_t=ZS-8y3vObdXDpx&_r=1&fbclid=PAQ0xDSwLj2w9leHRuA2FlbQIxMQABp_7-jFBiI23TOJKa1EAkCd5JwVMBvM-OFzx232Fmu0zHNTDmju9Y-TdeHYyc_aem_Z_s99hsoOIIxKYODOWwDCw" target="_blank"><i class="fab fa-tiktok"></i></a>
+    <a href="https://www.facebook.com/share/1D8aXhCeTk/?ref=xav_pl_fb_external_link_android&almsg=a2w&wtsid=rdr_1GOfRJCGQdTsX0aOk&refsrc=deprecated&_rdr" target="_blank"><i class="fab fa-facebook"></i></a>
+  </div>
+
+  <div class="links">
+    <a href="https://youtube.com/@inkaflixlat?si=4gERMAiSFG1Qx_RD" target="_blank">YouTube</a>
+    <a href="https://www.instagram.com/inkaflix?igsh=MWE1czM5OTV6bWhoNw==" target="_blank">Instagram</a>
+    <a href="https://www.tiktok.com/@inkaflix_offcial?_t=ZS-8y3vObdXDpx&_r=1&fbclid=PAQ0xDSwLj2w9leHRuA2FlbQIxMQABp_7-jFBiI23TOJKa1EAkCd5JwVMBvM-OFzx232Fmu0zHNTDmju9Y-TdeHYyc_aem_Z_s99hsoOIIxKYODOWwDCw" target="_blank">TikTok</a>
+    <a href="https://www.facebook.com/share/1D8aXhCeTk/?ref=xav_pl_fb_external_link_android&almsg=a2w&wtsid=rdr_1GOfRJCGQdTsX0aOk&refsrc=deprecated&_rdr" target="_blank">Facebook</a>
+
+    <!-- Grupo y Canal de WhatsApp -->
+    <a href="https://chat.whatsapp.com/KC8Bev06mqU3aQKk05Bk1q?mode=r_c" target="_blank">Grupo oficial WhatsApp</a>
+    <a href="https://whatsapp.com/channel/0029VahAuzL17EmsB4HuWl2m" target="_blank">Canal Oficial WhatsApp</a>
+
+    <!-- Descargar App -->
+    <a href="https://tusitio.com/app.apk" target="_blank">📲 Descargar App APK</a>
+   
+  </div>
+
+  <div class="footer">© 2025 Inkaflix • Todos los derechos reservados</div>
+
+</body>
+</html>
